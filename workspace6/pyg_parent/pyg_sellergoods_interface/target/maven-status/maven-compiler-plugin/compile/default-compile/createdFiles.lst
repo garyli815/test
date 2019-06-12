@@ -1,0 +1,5 @@
+com\pyg\sellergoods\service\ItemCatService.class
+com\pyg\sellergoods\service\BrandService.class
+com\pyg\sellergoods\service\SellerService.class
+com\pyg\sellergoods\service\SpecificationService.class
+com\pyg\sellergoods\service\TypeTemplateService.class

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>初始化指令</title>
+    <script src="../plugins/angularjs/angular.min.js"></script>
+    <script>
+        var myapp = angular.module("myApp",[]); //自定义模块
+        myapp.controller("myController",function ($scope) {
+             $scope.initUsername=function () {
+                 $scope.username="AABB";
+             }
+        })
+
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="initUsername()">  <!-- C  Controller-->
+  {{username}}    <!--V view-->
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVC</title>
+    <script src="../plugins/angularjs/angular.min.js"></script>
+    <script>
+        var myapp = angular.module("myApp",[]); //自定义模块
+        myapp.controller("myController",function ($scope) {
+            $scope.username="aaabbb";
+        })
+
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController">  <!-- C  Controller-->
+  {{username}}    <!--V view-->
+</body>
+</html>
